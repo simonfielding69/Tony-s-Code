@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ex1</title>
+    <link rel='icon' href='favicon.ico' />
+    <script src="jquery-1.11.3.js"></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head> 
+
+  <body>
+    <div id="idDivWrapper">
+    <form id="fmMain">
+      
+      <div id="headerUrl">
+        <span class="title"></span><span class="content"></span>
+      </div> 
+      <div id="headerBody">
+        <span class="title"></span><span class="content"></span>
+      </div>
+      
+      <div id="divStatus">
+        <span class="title">Result: </span><span class="content"></span>
+      </div> 
+      
+      
+      <div id="divTaGetData">
+        <textarea id="idTaGetData" rows="25"></textarea>
+      </div> <!-- end divTaGetData -->
+      
+      <div id="divTaPutData">
+        <textarea id="idTaPutData" rows="25">{"address" : "10 Downing Street, London, SW1A 2AA"}</textarea>
+      </div> <!-- end div divTaPutData --> 
+      
+       <div id="divSelSearchField">
+        <label for="selSearchField">Doc Field</label>
+        <select id="selSearchField">
+          <option value="*">All documents</option>
+          <option value="_id">By ID</option>
+          <option value="address">By house address</option>
+          <option value="number">By house number</option>
+        </select>
+      </div> <!-- end divSelSearchField -->
+      
+      <div id="divTxtSearchTerm">
+        <label for="txtSearchTerm">Search Term</label>
+        <input type="text" id="txtSearchTerm" value="" />
+      </div> <!-- end idDivTxtSearchTerm -->
+      
+       <div id="divButtons">
+        <input type="button" value="Find" id="btnFind" class="button" />
+        <input type="button" value="Insert" id="btnInsert" class="button"/>
+        <input type="button" value="Update" id="btnUpdate" class="button"/>
+        <input type="button" value="Delete" id="btnDelete" class="button"/> 
+        <input type="button" value="Initialise" id="btnInitialise" class="button"/> 
+        <input type="button" value="Delete All" id="btnDeleteAll" class="button"/> 
+      </div>  <!-- End div buttons  -->
+    </form>
+    </div> <!-- end idDivWrapper -->
+  </body>
+</html>

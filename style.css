@@ -1,0 +1,74 @@
+
+
+#idDivWrapper {
+  width: 1000px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#divStatus , #headerUrl, #headerBody{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  color:blue;
+}
+
+.title {
+  color: blue;
+}
+
+.content {
+  color: navy;  
+}
+label {
+  color: blue;
+}
+
+#divTaGetData,#divTaPutData {
+  width: 500px;
+  float: left;
+}
+#divTaHttpVerb {
+  width: 66px;
+  float: left;
+}
+
+#idTaPutData, #idTaGetData{
+  width:493px;
+}
+#idTaHttpVerb {
+  width: 60px;  
+}
+
+
+#divSelSearchField {
+  width: 231px;
+  float: left;  
+}
+
+#selSearchField {
+  width: 158px;
+  color: navy;
+}
+
+
+#divTxtSearchTerm {
+    width: 400px;
+    margin-left: 9px;
+    float: left;
+}
+
+#txtSearchTerm {
+    width: 305px;
+    color:navy;
+}
+
+
+#divButtons{
+    width: 360px;
+    float: right;
+}
+
+.button {
+    color: blue;
+}
